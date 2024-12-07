@@ -4,7 +4,7 @@ import gsap from "gsap";
 import RoundedCorners from "./RoundedCorners";
 import Button from "./Button";
 
-export const Story = () => {
+const Story = () => {
   const frameRef = useRef(null);
 
   const handleMouseMove = (e) => {
@@ -97,3 +97,5 @@ export const Story = () => {
     </section>
   );
 };
+
+export default Story;
